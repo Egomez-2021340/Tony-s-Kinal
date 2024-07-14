@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.estebangomez.controller.ProgramadorController">
+   <children>
+      <ImageView fitHeight="656.0" fitWidth="660.0" layoutX="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/fondoProgramador.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="30.0" layoutY="59.0" prefHeight="31.0" prefWidth="116.0" text="Nombre: " textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="24.0" />
+         </font>
+      </Label>
+      <Pane layoutX="45.0" layoutY="98.0" prefHeight="31.0" prefWidth="312.0" style="-fx-background-color: #32756c;">
+         <children>
+            <Label layoutX="14.0" layoutY="2.0" prefHeight="31.0" prefWidth="302.0" text="Esteban Fernando Gomez Loaiza" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Century Gothic" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="30.0" layoutY="155.0" prefHeight="31.0" prefWidth="116.0" text="Carné:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="24.0" />
+         </font>
+      </Label>
+      <Pane layoutX="45.0" layoutY="197.0" prefHeight="31.0" prefWidth="100.0" style="-fx-background-color: #32756c;">
+         <children>
+            <Label layoutX="14.0" layoutY="2.0" prefHeight="31.0" prefWidth="80.0" text="2021340" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Century Gothic" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="30.0" layoutY="251.0" prefHeight="31.0" prefWidth="205.0" text="Código Técnico:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="24.0" />
+         </font>
+      </Label>
+      <Pane layoutX="45.0" layoutY="297.0" prefHeight="31.0" prefWidth="80.0" style="-fx-background-color: #32756c;">
+         <children>
+            <Label prefHeight="31.0" prefWidth="74.0" text="  IN5BM" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Century Gothic" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="30.0" layoutY="349.0" prefHeight="31.0" prefWidth="243.0" text="Correo de Contacto:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="23.0" />
+         </font>
+      </Label>
+      <Pane layoutX="38.0" layoutY="390.0" prefHeight="31.0" prefWidth="243.0" style="-fx-background-color: #32756c;">
+         <children>
+            <Label prefHeight="31.0" prefWidth="265.0" text="egomez-2021340@kinal.edu.gt" textFill="WHITE">
+               <font>
+                  <Font name="Century Gothic" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="30.0" layoutY="441.0" prefHeight="31.0" prefWidth="271.0" text="Numero de Contacto:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="23.0" />
+         </font>
+      </Label>
+      <Pane layoutX="45.0" layoutY="488.0" prefHeight="31.0" prefWidth="90.0" style="-fx-background-color: #32756c;">
+         <children>
+            <Label prefHeight="31.0" prefWidth="100.0" text="4935-2508" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Century Gothic" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ImageView fitHeight="39.0" fitWidth="50.0" layoutX="442.0" layoutY="552.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/mail.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="262.0" fitWidth="265.0" layoutX="379.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Logo2SinFondo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="39.0" layoutX="559.0" layoutY="552.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/chat.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="39.0" layoutX="498.0" layoutY="552.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/facebook.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="54.0" layoutX="45.0" layoutY="591.0" onMouseClicked="#menuPrincipal" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/return.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
